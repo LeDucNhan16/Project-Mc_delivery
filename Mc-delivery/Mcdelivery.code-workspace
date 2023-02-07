@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../WORKSPAKE/ReactJS"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Mcdelivery"
+	}
+}

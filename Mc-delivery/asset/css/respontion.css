@@ -1,0 +1,357 @@
+/* shared  */
+@media only screen and (min-width:75em) {
+
+    /* navigation bar  */
+    .nav .border-pc {
+        border-left: none;
+    }
+
+    /* footer-subnav  */
+    .respontion {
+        width: 85%;
+    }
+}
+/* Extra large screens , TV  */
+@media only screen and (min-width:75em) {
+
+    /* navigation bar */
+    .nav {
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .nav .subnav {
+        left: -31px;
+        padding-left: 7px;
+    }
+    .nav  .border-pc {
+        width: 1;
+        border-left: 1px solid #333;
+    }
+}
+
+/* Desktops.large screens  */
+@media only screen and (min-width:64.0625em) and (max-width:75em) {
+    /* navigation bar  */
+    .nav {
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .nav li {
+        padding: 0 30px;
+    }
+    .nav  .border-pc {
+        width: 1;
+        border-left: none;
+        border-right: 1px solid #555;
+    }
+    .nav .seperate {
+        width: 1;
+        border-left: 1px solid #555;
+        border-right: 1px solid #555;
+    }
+    .logo-img {
+        padding: 0px 25px;
+    }
+    .seperate:last-child {
+        display: none;
+    }
+
+    /* container  */
+
+    #container {
+        width: 1129px;
+        max-width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    #container .img-advertisement {
+        width: 100%;
+    }
+    .advertisement {
+        width: 31.33333%;
+        flex-wrap: nowrap;
+    }
+    .img-advertisement {
+        margin-top: 0;
+    }
+}
+
+/* Small screens, laptops  */
+@media only screen and (min-width:48.0625em) and (max-width:64em) {
+    #main {
+        width: 1145px;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px 25px;
+    }
+
+    /* navigation bar  */
+    .nav {
+        width: 100%;
+        background-color: #000000;
+    }
+    .nav .border-pc {
+        width: 1;
+        padding: 0 16px;
+        border-left: none;
+        border-right: 1px solid #555;
+    }
+    .nav .ti-angle-down {
+        margin-left: 0px;
+    }
+    .nav li {
+        padding: 0 14px;
+        position: relative;
+        z-index: 1;
+        width: 100%;
+        text-align: center;
+    }
+    .nav li a {
+        padding: 0 3px;
+    }
+    .subnav li {
+        width: 177px;
+    }
+    .subnav li a {
+        line-height: 40px;
+        padding: 0;
+        font-size: 15px;
+        font-weight: 900;
+    }
+    .navigation-bar {
+        display: block;
+    }
+
+    /* slider  */
+    #slider {
+        margin-top: 77px;
+    }
+    .footer-sub-maint,
+    .footer-sub-mains,
+    .footer-sub-main {
+        width: 33.33333%;
+        padding: 30px 24px;
+    }
+    .img-title {
+        width: 962px;
+    }
+
+    /* container  */
+    #container {
+        margin-top: 0;
+    }
+    #container .sub-slider {
+        justify-content: space-between;
+    }
+    .img-advertisement {
+        margin-top: 25px;
+    }
+    .advertisement {
+        width: 31.33333%;
+        flex-wrap: nowrap;
+    }
+    .footer-sub-main {
+        flex: 2;
+    }
+    .footer-sub-mains,
+    .footer-sub-maint {
+        flex: 1;
+    }
+    .respontion {
+        width: 56%;
+    }
+    #container .img-advertisement {
+        width: 100%;
+    }
+}
+
+/* Ipads Tablet  */
+@media only screen and (min-width:30.0625em) and (max-width:48em) {
+
+    /* navigation bar  */
+    .nav {
+        width: 100%;
+        background-color: #000000;
+    }
+    .nav .seperate {
+        padding: 0px 0px 0px 15px;
+    }
+    .nav .ti-angle-down {
+        margin-left: 0px;
+    }
+    .nav li {
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .nav li a {
+        padding: 0 3px;
+    }
+    .navigation-bar {
+        display: block;
+    }
+    .border-r-mobile {
+        border-right: 1px solid #555;
+    }
+
+    /* slider  */
+    #slider {
+        margin-top: 77px;
+    }
+
+    /* container  */
+    #container {
+        margin-top: 0;
+    }
+    #container .sub-slider {
+        justify-content: space-evenly;
+    }
+    .img-advertisement {
+        margin-top: 25px;
+        width: 723px;
+        max-width: 100%;
+    }
+    .respontion {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-sub-main {
+        width: 50%;
+        align-items: center;
+        padding-left: 10px;
+    }
+    .footer-sub-maint,
+    .footer-sub-mains {
+        flex: 1;
+        width: 30%;
+    }
+}
+
+/* Mobile devices  */
+@media only screen and (min-width:20em) and (max-width:30em) {
+
+    /* navigation bar  */
+    .nav {
+        width: 100%;
+        max-width: 100%;
+        background-color: #000000;
+        justify-content: space-evenly;
+    }
+    .nav li {
+        padding: 0 ;
+    }
+    .nav > li:last-child {
+        display: block;
+    }
+    .seperate {
+        display: none;
+    }
+    .navigation-bar {
+        flex-direction: column;
+    }
+    .logo-img {
+        padding: 0px 91px;
+        border-radius: 4px;
+        width: 100%;
+    }
+
+    /* slider  */
+    #slider {
+        margin-top: 72px;
+    }
+    .main-slider {
+        top: 10px;
+        right: 10px;
+        width: 276px;
+        height: 393px;
+    }
+    .slider-head {
+        margin: 7px 0 11px;
+    }
+    .slider-btn {
+        padding: 8px 8px;
+    }
+
+    /* container  */
+    #container .img-advertisement {
+        width: 500px;
+        max-width: 100%;
+    }
+    .advertisement {
+        width: 100%;
+    }
+    .checbox-slider {
+        width: 25px;
+        height: 30px;
+    }
+    .slider-button {
+        padding: 12px;
+    }
+    #footer-main {
+        flex-direction: column;
+        padding-left: 10px;
+    }
+    .footer-sub-main {
+        width: 100%;
+        padding: 30px 0 0;
+    }
+    .respontion {
+        width: 100%;
+        flex-direction: column;
+    }
+    .footer-sub-mains {
+        margin: 30px 0;
+    }
+    .mobile-mr-top-botton-25px-respontion {
+        margin: 3px 0;
+    }
+    
+}
+/* mr top sub slider  */
+@media only screen and (max-width:30em) {
+    #container {
+        margin-top: 8px;
+    }
+}
+
+/* iphone x  */
+@media only screen and (max-width:23.75em ) {
+
+    /* header  */
+    #header-btn {
+        justify-content: flex-end;
+    }
+    #header-btn li a {
+        font-size: 16px;
+    }
+    .head-list {
+        display: none;
+    }
+
+    /* navigation bar  */
+    .nav li {
+        padding: 0 8px;
+        width: 50%;
+    }
+    .subnav > li  {
+        width: 100%;
+    }
+    .subnav li a {
+        line-height: 40px;
+        padding: 0 1px;
+        font-size: 15px;
+        font-weight: 900;
+    }
+    .advertisement {
+        width: 400px;
+    }
+
+    /* container  */
+    #container {
+        margin-top: 8px;
+    }
+    .margin-top-bot-4px-ipx {
+        margin: 4px 0;
+    }
+}
